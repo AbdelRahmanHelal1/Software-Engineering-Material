@@ -26,4 +26,5 @@ order.add_item("USB cable", 2, 5)
 
 processor = PaymentProcessor()
 processor.pay(order, "0372846")
+# print the status from order
 print(order.status)
